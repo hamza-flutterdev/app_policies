@@ -15,10 +15,7 @@
       --border: #d9e1ee;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       background: var(--bg);
@@ -26,13 +23,7 @@
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.65;
     }
-
-    main {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 32px 16px;
-    }
-
+    main { max-width: 860px; margin: 0 auto; padding: 32px 16px; }
     article {
       background: var(--card);
       border: 1px solid var(--border);
@@ -40,62 +31,23 @@
       padding: 32px;
       box-shadow: 0 12px 34px rgba(23, 32, 51, 0.08);
     }
-
-    h1,
-    h2 {
-      line-height: 1.25;
-      margin: 0;
-    }
-
-    h1 {
-      font-size: 34px;
-      margin-bottom: 8px;
-    }
-
+    h1, h2 { line-height: 1.25; margin: 0; }
+    h1 { font-size: 34px; margin-bottom: 8px; }
     h2 {
       border-top: 1px solid var(--border);
       font-size: 21px;
       margin-top: 28px;
       padding-top: 24px;
     }
-
-    p {
-      margin: 12px 0 0;
-    }
-
-    ul {
-      margin: 12px 0 0;
-      padding-left: 22px;
-    }
-
-    li {
-      margin: 8px 0;
-    }
-
-    .updated {
-      color: var(--muted);
-      margin-bottom: 20px;
-    }
-
-    a {
-      color: var(--accent);
-    }
-
+    p { margin: 12px 0 0; }
+    ul { margin: 12px 0 0; padding-left: 22px; }
+    li { margin: 8px 0; }
+    .updated { color: var(--muted); margin-bottom: 20px; }
+    a { color: var(--accent); }
     @media (max-width: 600px) {
-      main {
-        padding: 0;
-      }
-
-      article {
-        border: 0;
-        border-radius: 0;
-        padding: 24px 18px;
-        box-shadow: none;
-      }
-
-      h1 {
-        font-size: 29px;
-      }
+      main { padding: 0; }
+      article { border: 0; border-radius: 0; padding: 24px 18px; box-shadow: none; }
+      h1 { font-size: 29px; }
     }
   </style>
 </head>
@@ -103,104 +55,56 @@
   <main>
     <article>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: May 19, 2026</p>
+      <p class="updated">Last updated: October 8, 2026</p>
 
       <p>
-        This Privacy Policy explains how our mobile applications handle information when you use them.
-        It is written as a general policy that can be used across apps published by the same developer.
+        This policy applies to mobile apps published by CodenameHasan. Features and data practices differ between apps;
+        an app handles only the information and services needed for the features it includes. The categories below may not
+        apply to every app.
       </p>
 
-      <h2>Information We Collect</h2>
-      <p>Depending on the app and the features you use, an app may collect or process the following information:</p>
-      <ul>
-        <li>Account information from sign-in providers, such as name, email address, user ID, profile photo, and email verification status.</li>
-        <li>App usage, diagnostics, analytics, and crash information through Firebase or similar services.</li>
-        <li>Premium access status, subscriptions, purchases, and related purchase state.</li>
-        <li>Feedback or support information you choose to send, including your name, selected issue type, description, and email content.</li>
-        <li>App activity data needed for features such as saved items, favorites, progress, history, quizzes, or other in-app tools.</li>
-        <li>AI prompt or request content when you choose to use AI-assisted features.</li>
-      </ul>
-
-      <h2>How We Use Information</h2>
-      <p>We use information to:</p>
-      <ul>
-        <li>Sign you in and maintain your account where sign-in is available.</li>
-        <li>Provide app content, saved items, progress, history, premium features, and other in-app functionality.</li>
-        <li>Improve app features, reliability, and user experience.</li>
-        <li>Diagnose crashes, errors, and performance issues.</li>
-        <li>Respond to feedback or support requests.</li>
-        <li>Verify and maintain premium access, subscriptions, or purchases where applicable.</li>
-      </ul>
-
-      <h2>App Permissions</h2>
+      <h2>Information</h2>
       <p>
-        Some apps may request device permissions so specific features can work properly.
-        These permissions may include, depending on the app:
-      </p>
-      <ul>
-        <li>Internet or network access to load content, sync data, process payments, show ads, send feedback, or use online services.</li>
-        <li>Notification permission to send reminders, alerts, or app updates.</li>
-        <li>Camera, microphone, storage, media, location, or other device permissions only when a feature in that app requires them.</li>
-      </ul>
-      <p>
-        Permissions are used only for the feature that needs them. If an app does not include a feature that needs a specific permission,
-        that permission is not requested. You can allow, deny, or change app permissions from your device settings.
+        Depending on the app and features you use, an app may handle information you provide, account details, app content,
+        purchase status, feedback, diagnostics, or AI prompts. Some information may stay on your device; information needed
+        for an online feature may be sent to the app developer or the service providing that feature.
       </p>
 
-      <h2>Third-Party Services</h2>
-      <p>An app may use third-party services that process data according to their own privacy policies, including:</p>
-      <ul>
-        <li>Firebase Authentication</li>
-        <li>Cloud Firestore</li>
-        <li>Firebase Analytics</li>
-        <li>Firebase Crashlytics</li>
-        <li>Google Sign-In</li>
-        <li>Google Play Billing or Apple in-app purchase services</li>
-        <li>AI service providers for AI-assisted responses</li>
-        <li>The user's email app or email provider for feedback and support messages</li>
-      </ul>
-      <p>Please review the privacy policies of these services for more information about their data practices.</p>
-
-      <h2>AI Requests</h2>
+      <h2>How Information Is Used</h2>
       <p>
-        When you use AI-assisted features, the app may send your prompt or related request content to the configured AI service
-        so a response can be generated. Avoid entering sensitive personal information into AI prompts or requests.
+        Information is used to provide app features, save your content, manage purchases where available, respond to support
+        requests, and maintain or improve app reliability where diagnostic services are used.
       </p>
 
-      <h2>Feedback</h2>
+      <h2>Permissions and Third-Party Services</h2>
       <p>
-        When you submit feedback, an app may open your email application with feedback details filled in or may submit support
-        information through another service. Sending feedback is optional.
+        An app may request device permissions needed for its features. It may also use services such as app-store billing,
+        analytics, sign-in, email, or AI providers. The services used depend on the specific app. Each provider handles data
+        under its own privacy terms. The app listing and Google Play Data safety section provide information about the
+        features and data practices applicable to each app.
       </p>
 
-      <h2>Account Deletion</h2>
+      <h2>Data Retention and Deletion</h2>
       <p>
-        If account deletion is available in an app, deleting your account removes or requests removal of account data controlled
-        by the app. Some records may remain where required for legal, security, billing, backup, or platform compliance purposes. You can also request to delete account using below mentioned email.
+        Retention depends on the app and the feature. Information stored on your device may remain until you delete it,
+        clear the app's data, or uninstall the app. Exported files and device backups may need to be deleted separately.
+        Apps that allow account creation provide in-app and external methods to request account deletion.
       </p>
 
       <h2>Children's Privacy</h2>
       <p>
-        The apps are intended for general, educational, productivity, or utility use depending on the specific app.
-        Users should avoid submitting unnecessary personal information. If a parent or guardian believes a child has provided
-        personal information that should be removed, they can contact us.
+        Each app's intended audience is described in its store listing. If a parent or guardian has a privacy concern about
+        information handled by one of our apps, they can contact us below.
       </p>
 
-      <h2>Data Security</h2>
+      <h2>Security and Changes</h2>
       <p>
-        We use Firebase and platform services to help protect app data. No method of electronic storage or transmission is
-        completely secure, so we cannot guarantee absolute security.
-      </p>
-
-      <h2>Changes To This Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Updates will be reflected by changing the "Last updated" date
-        at the top of this document.
+        We use the protections available through each app and its platform services. No method of electronic storage or
+        transmission is completely secure. We may update this policy and will change the date above when we do.
       </p>
 
       <h2>Contact</h2>
-      <p>For privacy questions or support, contact:</p>
-      <p><a href="mailto:codenamehasan007@gmail.com">codenamehasan007@gmail.com</a></p>
+      <p>For privacy questions or requests, contact <a href="mailto:codenamehasan007@gmail.com">codenamehasan007@gmail.com</a>.</p>
     </article>
   </main>
 </body>
